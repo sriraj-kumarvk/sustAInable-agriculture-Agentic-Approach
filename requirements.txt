@@ -1,0 +1,7 @@
+fastapi==0.95.1
+uvicorn==0.21.1
+xgboost
+pandas==2.0.0
+numpy==1.24.2
+scikit-learn==1.2.2
+ollama

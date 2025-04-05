@@ -1,0 +1,21 @@
+{
+	"name": "Accenture_module",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "python:3.11.5-bookworm", // "python:3.10.14",//"python:3.10.14-bullseye",
+	"customizations": {
+		// "vscode": {
+		// 	"extensions": [
+		// 		"ms-python.python",
+		// 		"redhat.vscode-yaml"
+		// 	]
+		// }
+		"vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ms-python.vscode-pylance",
+                "redhat.vscode-yaml"
+            ]
+        }
+	}
+}
